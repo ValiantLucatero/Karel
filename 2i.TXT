@@ -1,0 +1,37 @@
+class program
+{
+    void line()
+    {
+        if(frontIsBlocked)
+        {
+            turnleft();
+            move();
+            iterate(3)
+                turnleft();
+            move();
+            iterate(3)
+                turnleft();
+            move();
+            turnleft();
+        }
+    }
+    void flag()
+    {
+        if(nextToABeeper)
+            pickbeeper();
+    }
+    program()
+    {
+    while(notFacingEast)
+        turnleft();
+    iterate(10)
+    {
+        line();
+        flag();
+        if(frontIsClear)
+            move();
+    }
+    turnoff();
+    }
+
+}

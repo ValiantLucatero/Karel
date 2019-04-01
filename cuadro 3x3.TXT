@@ -1,0 +1,36 @@
+class program {
+
+program() {
+    ;
+     putbeeper();
+     move();
+     putbeeper();
+     move();
+     putbeeper();
+     turnleft();
+     turnleft();
+     turnleft();
+     move();
+     putbeeper();
+     move();
+     putbeeper();
+     turnleft();
+     turnleft();
+     turnleft();
+     move();
+     putbeeper();
+     move();
+     putbeeper();
+     turnleft();
+     turnleft();
+     turnleft();
+     move();
+     putbeeper();
+     move();
+     turnleft();
+     turnleft();
+     turnleft();
+    turnoff();
+}
+
+}

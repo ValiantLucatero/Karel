@@ -1,0 +1,19 @@
+class program
+{
+    void 
+    program()
+    {
+        while(notNextToABeeper&&frontIsClear)
+        {
+            putbeeper();
+            move();
+        }
+        turnleft();
+        while(notNextToABeeper&&frontIsClear)
+        {
+            putbeeper();
+            move();
+        }
+        turnoff();
+}
+    }

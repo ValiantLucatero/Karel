@@ -1,0 +1,23 @@
+class program {
+    void turnright()
+    {
+        iterate (3)
+            turnleft();
+    }
+    void rotate()
+    {
+        iterate (2)
+           turnleft();
+    }
+    program() {
+        iterate (4)
+        {
+            turnright();
+            move();
+            rotate();
+            move();
+        }      
+    turnoff();
+}
+
+}

@@ -1,0 +1,41 @@
+class program
+{
+    void scan()
+    {
+        while(frontIsClear&&nextToABeeper)
+            move();
+        if(frontIsBlocked&&nextToABeeper)
+        {
+            turnleft();
+            move();
+            turnleft();
+        }
+        while(frontIsClear&&nextToABeeper)
+            move();
+        if(frontIsBlocked&&nextToABeeper)
+        {
+        iterate(3)
+            turnleft();
+        move();
+        iterate(3)
+            turnleft();
+        }
+    }
+    program()
+    {
+        if(nextToABeeper)
+        {
+            while(notFacingSouth)
+                turnleft();
+            while(frontIsClear)
+                move();
+            turnleft();
+            while(frontIsClear)
+                move();
+            turnleft();
+            while(nextToABeeper)
+                scan();
+        }
+        turnoff();
+    }
+}

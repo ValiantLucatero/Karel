@@ -1,0 +1,37 @@
+class program {
+        void pickline()
+        {
+        move();
+        pickbeeper();
+        move();
+        pickbeeper();
+        move();
+        pickbeeper();
+        move();
+        pickbeeper();
+        move();
+        }
+        void turnright()
+        {
+        turnleft();
+        turnleft();
+        turnleft();
+        }
+program() {
+    pickline();
+    turnright();
+    move();
+    turnright();
+    pickline();
+    turnleft();
+    move();
+    turnleft();
+    pickline();
+    turnright();
+    move();
+    turnright();
+    pickline();
+    turnoff();
+}
+
+}

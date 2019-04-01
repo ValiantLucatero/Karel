@@ -1,0 +1,33 @@
+class program
+{
+     void collectbeepers(n)
+     {
+         iterate (n)
+         {
+             pickbeeper();
+             move();
+         }
+     }
+     void backflip(n)
+     {
+         iterate (n)
+         {           
+             iterate(4)
+                 turnleft();
+             move();
+         }
+      }
+    program()
+        {
+        collectbeepers(5);
+        backflip(2);
+        collectbeepers(6);
+        backflip(3);
+        collectbeepers(3);
+        backflip(5);
+        collectbeepers(1);
+        iterate(15)
+            putbeeper();
+        turnoff();
+    }
+}

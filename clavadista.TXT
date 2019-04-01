@@ -1,0 +1,27 @@
+class program
+{
+    void turnright()
+    {
+        iterate(3)
+            turnleft();
+    }
+    void rotate()
+    {
+        iterate(4)
+            turnleft();
+        move();
+    }
+    program()
+    {
+    while(notFacingNorth)
+        turnleft();
+    while(facingNorth&&rightIsBlocked)
+        move();
+    turnright();
+    move();
+    turnright();
+    while(frontIsClear)
+        rotate();
+    turnoff();
+    }
+}

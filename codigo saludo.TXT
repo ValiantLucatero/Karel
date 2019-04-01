@@ -1,0 +1,166 @@
+class program {
+       void putdot()
+       {
+       iterate(1)
+           putbeeper();
+       }
+       void turnright()
+       {
+       iterate (3)
+           turnleft();
+       }
+program()
+       {
+       move();
+       putdot();
+       iterate (2)
+           move();
+       putdot();
+       iterate (2)
+           move();
+       putdot();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       turnleft();
+       move();
+       turnleft();
+       move();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       iterate (4)
+           move();
+       putdot();
+       iterate (4)
+           move();
+       putdot();
+       iterate(4)
+           move();
+       putdot();
+       move();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       turnright();
+       move();
+       putdot();
+       turnright();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       iterate (4)
+           move();
+       putdot();
+       iterate (4)
+           move();
+       putdot();
+       move();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       turnleft();
+       move();
+       turnleft();
+       putdot();
+       move();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       iterate (4)
+           move();
+       putdot();
+       iterate (4)
+           move();
+       putdot();
+       iterate (4)
+           move();
+       putdot();
+       move();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       turnright();
+       move();
+       turnright();
+       putdot();
+       move();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       iterate (4)                   
+           move();
+       putdot();
+       iterate (4)
+           move();
+       putdot();
+       move();
+       putdot();
+       move();
+       putdot();
+       move();
+       move();
+       putdot();
+       iterate(2)
+           move();
+       turnright();
+       iterate (4)
+           move();
+       turnoff();
+}
+}

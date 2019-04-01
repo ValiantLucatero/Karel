@@ -1,0 +1,19 @@
+class program {
+        void step()
+        {
+           turnleft();
+           turnleft();
+           turnleft();
+           turnleft();
+           move();
+           move();
+        }
+    program()
+    {
+       step();
+       step();  
+       step();
+       step();
+    turnoff();
+    }
+               }
